@@ -4,18 +4,22 @@
 * The characters should form a chessboard.
 */
 
-var arr = [""];
+var stoca = [""];
 
 for (var i = 0; i < 10; i++) {
+	stoca = [""];
   if (i % 2) {
     for (var x = 0; x < 10; x++) {
-		arr[i] += " #";
+		stoca += " #";
+		
 	}
-	console.log(arr[i]);
 	
   } else {
     for (var y = 0; y < 10; y++) {
-		arr[i] += "# ";   
+		stoca += "# ";   
+		
 	}
-	console.log(arr[i]);
- }
+	
+  }
+  console.log(stoca);
+}
