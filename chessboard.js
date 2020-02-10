@@ -3,20 +3,20 @@
 * At each position of the grid there is either a space or a "#" character.
 * The characters should form a chessboard.
 */
+
 let arr = [""];
 
 for (var i = 0; i < 10; i++) {
   if (i % 2) {
     for (var x = 0; x < 10; x++) {
-		arr[x] += " #"
-		
+		arr[i] += " #";
 	}
-	console.log(arr[1] + "\n");
+	console.log(arr[i] + "\n");
 	
   } else {
     for (var y = 0; y < 10; y++) {
-		arr[y] += "# ";   
+		arr[i] += "# ";   
 	}
-	console.log(arr[1]+ "\n");
+	console.log(arr[i]+ "\n");
   }
 }
