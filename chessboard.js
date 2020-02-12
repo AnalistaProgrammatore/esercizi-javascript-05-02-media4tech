@@ -4,18 +4,16 @@
 * The characters should form a chessboard.
 */
 
-var stoca = "";
-
-for (var i = 0; i < 10; i++) {
+for (var i = 0; i < 8; i++) {
 	stoca = "";
   if (i % 2) {
-    for (var x = 0; x < 10; x++) {
+    for (var x = 0; x < 4; x++) {
 		stoca += " #";
 		
 	}
 	
   } else {
-    for (var y = 0; y < 10; y++) {
+    for (var y = 0; y < 4; y++) {
 		stoca += "# ";   
 		
 	}
